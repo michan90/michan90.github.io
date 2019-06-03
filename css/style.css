@@ -1,0 +1,161 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-image {
+  margin-top: 116px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.img-fluid {
+  border-radius: 8px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.portfolio {
+  margin-bottom: -10px;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 500px;
+  margin-bottom: 12px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+  opacity: 0;
+  background-color: #87CDEA;
+  border-radius: 8px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 6;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#navbar_main {
+  float: right;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.box-container {
+  justify-content: center;
+  display: flex;
+}
+
+.box {
+  justify-content: center;
+}
+
+.container {
+  padding: 20px 20px 20px 20px;
+  align-content: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+.padding-section {
+  padding: 100px 0;
+}
+.main-title {
+  margin-top: 120px;
+}
+#gallery .portfolio-item-caption {
+  width: 100%;  
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  opacity: 0;
+}
+#gallery .portfolio-item-caption:hover {
+  background-color: rgba(0,0,0,0.5);
+  opacity: 1;
+}
+#gallery .image-container {
+  position: relative;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+  .box-container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  .box-container {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1000px;
+  }
+}
